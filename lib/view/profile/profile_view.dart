@@ -8,6 +8,10 @@ class ProfileView extends StatefulWidget {
 class _ProfileViewState extends State<ProfileView> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Coffee App'),
+      ),
+    );
   }
 }
